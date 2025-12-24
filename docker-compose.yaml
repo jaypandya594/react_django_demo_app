@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    build: .
+    image: jaypandya1234/notes-app:tagname
     ports:
       - "8001:8001"
