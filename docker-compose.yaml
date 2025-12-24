@@ -4,4 +4,4 @@ services:
   web:
     image: jaypandya1234/notes-app:latest
     ports:
-      - "8001:8001"
+      - "8001:8000"
