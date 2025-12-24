@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: jaypandya1234/notes-app:latest
+    build: .
     ports:
       - "8001:8001"
