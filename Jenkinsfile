@@ -37,7 +37,7 @@ pipeline{
             steps{
                 echo "This is deploying the code"
                 // Ensure docker-compose.yml is in the root of your repo
-                sh "docker compose down && docker compose up -d"
+                sh " docker compose up -d"
             }
         }
     }
